@@ -2,10 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { QrCode, Camera, KeyRound } from "lucide-react";
 import { toast } from "sonner";
-import { Notice, PageHeader, SampleBadge } from "@/components/AppShell";
+import { Notice, PageHeader, SampleBadge, StatusPill } from "@/components/AppShell";
 import { participation } from "@/lib/sample-data";
 import { pageMeta } from "@/lib/meta";
-import { StatusPill } from "./index";
 
 export const Route = createFileRoute("/attendance")({
   head: () => pageMeta("Attendance", "Mark club activity attendance with a QR code."),

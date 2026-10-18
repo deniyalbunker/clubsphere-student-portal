@@ -1,9 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Mail, GraduationCap, CalendarDays } from "lucide-react";
-import { PageHeader, SampleBadge } from "@/components/AppShell";
+import { PageHeader, SampleBadge, StatusPill } from "@/components/AppShell";
 import { clubs, participation, student } from "@/lib/sample-data";
 import { pageMeta } from "@/lib/meta";
-import { StatusPill } from "./index";
 
 export const Route = createFileRoute("/profile")({
   head: () => pageMeta("Student Profile", "Student profile, clubs and participation history."),

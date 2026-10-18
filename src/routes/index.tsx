@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Users, CalendarDays, Trophy, Award, ArrowRight, Megaphone } from "lucide-react";
-import { SampleBadge } from "@/components/AppShell";
+import { SampleBadge, StatusPill } from "@/components/AppShell";
 import { announcements, calendarItems, clubs, participation, student, certificates } from "@/lib/sample-data";
 import { pageMeta } from "@/lib/meta";
 
@@ -106,11 +106,3 @@ function Dashboard() {
   );
 }
 
-export function StatusPill({ status }: { status: string }) {
-  const tone =
-    status === "Attended" || status === "Reviewed" ? "bg-success/12 text-success"
-    : status === "Missed" ? "bg-destructive/10 text-destructive"
-    : status === "Submitted" ? "bg-sky-soft text-primary"
-    : "bg-warning/15 text-foreground";
-  return <span className={`rounded-full px-2.5 py-1 text-xs font-semibold ${tone}`}>{status}</span>;
-}

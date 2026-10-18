@@ -128,3 +128,12 @@ export function Notice({ children }: { children: ReactNode }) {
     <div className="mb-6 rounded-xl border border-primary/20 bg-sky-soft px-4 py-3 text-sm text-accent-foreground">{children}</div>
   );
 }
+
+export function StatusPill({ status }: { status: string }) {
+  const tone =
+    status === "Attended" || status === "Reviewed" ? "bg-success/12 text-success"
+    : status === "Missed" ? "bg-destructive/10 text-destructive"
+    : status === "Submitted" ? "bg-sky-soft text-primary"
+    : "bg-warning/15 text-foreground";
+  return <span className={`rounded-full px-2.5 py-1 text-xs font-semibold ${tone}`}>{status}</span>;
+}

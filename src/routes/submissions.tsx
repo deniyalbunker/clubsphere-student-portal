@@ -2,10 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { FileText, Presentation, Upload } from "lucide-react";
 import { toast } from "sonner";
-import { Notice, PageHeader, SampleBadge } from "@/components/AppShell";
+import { Notice, PageHeader, SampleBadge, StatusPill } from "@/components/AppShell";
 import { submissions as initial } from "@/lib/sample-data";
 import { pageMeta } from "@/lib/meta";
-import { StatusPill } from "./index";
 
 export const Route = createFileRoute("/submissions")({
   head: () => pageMeta("Submissions", "Submit club assignments and presentations."),
