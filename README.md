@@ -1,50 +1,48 @@
-# ClubSphere Student Portal
+# ClubSphere — Club Activities Tracker
 
-Create a professional, responsive college club management web application named ClubSphere for MSOT.
+## Project Overview
+ClubSphere is a responsive college club management web application designed to organize club activities and student participation.
 
-Use React, TypeScript, and Tailwind CSS. Design a premium student portal with a clean white background, deep navy text, sky-blue accents, modern typography, rounded cards, and subtle shadows.
+## Problem Statement
+College club information is often scattered across WhatsApp groups, forms, and spreadsheets, making it difficult to track activities, attendance, submissions, and achievements.
 
-Create these pages:
+## Project Objectives
+- Centralize club information and activities
+- Improve event discovery and participation tracking
+- Simplify student and coordinator workflows
+- Maintain organized participation records
 
-Dashboard with welcome message, club statistics, upcoming activities, announcements, and recent participation.
+## Current Features
+- Student dashboard
+- Club search, filters, and demo join/leave interactions
+- Club Day calendar
+- Attendance interface (demo only)
+- Submission tracking interface (demo only)
+- Events and interest buttons
+- Certificates page (demo only)
+- Student profile and participation history
+- Responsive desktop and mobile navigation
 
-Clubs page with searchable cards for Tech, Entrepreneurship, Cultural, and Sports clubs.
+## Technology Stack
+- React
+- TypeScript
+- Tailwind CSS
+- Lovable AI
+- Git and GitHub
 
-Club Day calendar with activities, dates, and deadlines.
+## Development Status
+The frontend prototype is ready with sample data. Changes currently reset after refreshing the page. Authentication, persistent database storage, real QR attendance, file uploads, and certificate verification have not yet been implemented.
 
-Attendance page with a QR attendance interface.
+## Future Development
+- Authentication and role-based permissions
+- Database integration
+- Verified QR attendance
+- Real file submissions and evaluations
+- Certificate generation and verification
+- Analytics and reporting
 
-Submissions page for assignments and presentations.
+## GitHub Repository
+https://github.com/deniyalbunker/clubsphere-student-portal
 
-Events page for Hackathon, Gambade, Cross Road, and International Conference.
-
-Certificates and achievements page.
-
-Student profile and participation history.
-
-Add a sidebar on desktop, responsive mobile navigation, and realistic sample data. Make navigation and interactive buttons functional where possible.
-
-For this first version, build the frontend UI only. Clearly label sample data. Do not pretend that login, QR verification, database storage, or certificate verification is working until properly implemented.
-
-Keep the project code organized and compatible with GitHub and local development in VS Code. Do not require paid APIs or paid services.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/72bf447e-40ad-4e9a-951d-147a2a460a81).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## Project Type
+Individual College Project
